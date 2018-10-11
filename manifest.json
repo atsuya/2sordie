@@ -1,0 +1,18 @@
+{
+  "description": "Firefox addon that force closes all http requests after 2 seconds from an initial http request for a page",
+  "manifest_version": 2,
+  "name": "2sordie",
+  "version": "0.1",
+  "homepage_url": "https://github.com/atsuya/2sordie",
+  "icons": {
+    "48": "pen.svg"
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
