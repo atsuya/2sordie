@@ -1,3 +1,5 @@
+var browser = require('webextension-polyfill');
+
 var dead = false;
 
 function resourceBeingRequested(details) {
